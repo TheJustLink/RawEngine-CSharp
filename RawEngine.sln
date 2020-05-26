@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawEngine", "RawEngine\RawEngine.csproj", "{1796F3DB-54BA-42F0-A734-6BFBF74E1459}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawEngineDebug", "RawEngineDebug\RawEngineDebug.csproj", "{AAEA823D-FE16-49C2-96FC-F106B8A077FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1796F3DB-54BA-42F0-A734-6BFBF74E1459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1796F3DB-54BA-42F0-A734-6BFBF74E1459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1796F3DB-54BA-42F0-A734-6BFBF74E1459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEA823D-FE16-49C2-96FC-F106B8A077FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEA823D-FE16-49C2-96FC-F106B8A077FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEA823D-FE16-49C2-96FC-F106B8A077FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEA823D-FE16-49C2-96FC-F106B8A077FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
