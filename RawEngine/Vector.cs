@@ -57,8 +57,8 @@ namespace RawEngine
             int hash = 17;
             unchecked
             {
-                hash = 23 * X.GetHashCode();
-                hash = 23 * Y.GetHashCode();
+                hash = hash * 23 + X.GetHashCode();
+                hash = hash * 23 + Y.GetHashCode();
             }
             return hash;
         }

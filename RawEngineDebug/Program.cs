@@ -11,13 +11,17 @@ namespace RawEngineDebug
 
         private static void Main(string[] args)
         {
-            var vectors = GetRandomVectors(10);
-            Console.WriteLine(GetVectorsPrint(vectors));
-            
-            Console.WriteLine("Sorting...");
-            
-            Array.Sort<Vector>(vectors);
-            Console.WriteLine(GetVectorsPrint(vectors));
+            GameObject gameObject = new GameObject(
+                new TransformComponent()
+            );
+
+            var transform = gameObject.GetComponent<TransformComponent>();
+            var whatcomponent = gameObject.GetComponent<IUpdatable>();
+            var whatcomponents = gameObject.GetComponents<IUpdatable>();
+            var whatcomponents2 = gameObject.GetComponents<IComponent>();
+
+            gameObject.RemoveComponents<IUpdatable>();
+            bool hasUpdatable = gameObject.ContainsComponent<IUpdatable>();
 
             Console.ReadKey(true);
         }
