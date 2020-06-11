@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawEngine", "RawEngine\RawE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawEngineDebug", "RawEngineDebug\RawEngineDebug.csproj", "{AAEA823D-FE16-49C2-96FC-F106B8A077FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawEngineTests", "RawEngineTests\RawEngineTests.csproj", "{36269E0C-0559-4F82-920C-C9D5151278AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AAEA823D-FE16-49C2-96FC-F106B8A077FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAEA823D-FE16-49C2-96FC-F106B8A077FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAEA823D-FE16-49C2-96FC-F106B8A077FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36269E0C-0559-4F82-920C-C9D5151278AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36269E0C-0559-4F82-920C-C9D5151278AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36269E0C-0559-4F82-920C-C9D5151278AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36269E0C-0559-4F82-920C-C9D5151278AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
