@@ -42,7 +42,7 @@ namespace RawEngine
             _components.Add(component.GetType(), component);
         }
 
-        public bool TryGetComponent<T>(out T component) where T : IComponent
+        public bool TryGetComponent<T>(out T component)
         {
             component = default(T);
             if (ContainsComponent<T>() == false)
@@ -120,7 +120,8 @@ namespace RawEngine
         }
         public void RemoveComponent(Type type)
         {
-            this.RemoveComponent(GetComponent(type));
+            if (ContainsComponent(type))
+                this.RemoveComponent(GetComponent(type));
         }
         private void RemoveComponent(IComponent component)
         {

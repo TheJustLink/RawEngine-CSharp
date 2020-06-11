@@ -11,7 +11,7 @@ namespace RawEngine
         void AddComponent<T>() where T : IComponent, new();
         void AddComponent(IComponent component);
 
-        bool TryGetComponent<T>(out T component) where T : IComponent;
+        bool TryGetComponent<T>(out T component);
         bool TryGetComponent(Type type, out IComponent component);
 
         IComponent[] GetComponents();

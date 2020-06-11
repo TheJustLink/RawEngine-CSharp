@@ -50,7 +50,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ComposableTests\ComposableTests.cs" />
+    <Compile Include="ComposableTests\TestActivableComponent.cs" />
+    <Compile Include="ComposableTests\TestComponent.cs" />
+    <Compile Include="ComposableTests\TestDestroyableComponent.cs" />
+    <Compile Include="ComposableTests\TestNestedComponent.cs" />
+    <Compile Include="ComposableTests\TestUpdatableComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RawEngine\RawEngine.csproj">
+      <Project>{1796f3db-54ba-42f0-a734-6bfbf74e1459}</Project>
+      <Name>RawEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
